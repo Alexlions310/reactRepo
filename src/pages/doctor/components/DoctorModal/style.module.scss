@@ -1,0 +1,79 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  justify-content: flex-end;
+}
+
+.modal_desktop {
+  display: flex;
+
+  .content {
+    position: relative;
+    width: 608px;
+    height: 100vh;
+  }
+}
+
+.modal_mobile {
+  display: none;
+  background: none;
+
+  .content {
+    width: 100%;
+    height: calc(100vh - 76px);
+    overflow: auto;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3f1ff;
+  padding: 27px 20px;
+  height: 70px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  color: #262626;
+}
+
+.close {
+  position: absolute;
+  top: 45px;
+  right: 45px;
+  background-image: url('../../../../assets/icons/close.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+  .modal_desktop {
+    display: none;
+  }
+
+  .modal_mobile {
+    display: flex;
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+    background-color: #fff;
+    border: none;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;  
+    color: #4B5B75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}

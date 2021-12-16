@@ -1,0 +1,142 @@
+.recording {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3f1ff;
+  padding: 27px 20px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  color: #262626;
+}
+
+.denomination {
+  display: flex;
+}
+
+.choose {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6d7f9d;
+  width: 136px;
+}
+
+.choosed {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    &:first-child {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      color: #262626;
+    }
+
+    &:last-child {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: #6d7f9d;
+    }
+  }
+}
+
+.revoke {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  padding: 11px 0;
+  width: 324px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.lab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  span {
+    min-width: 32px;
+  }
+}
+
+.choose {
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  width: 100%;
+  padding: 14px 0;
+}
+
+.wrapperrr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.warning {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #262626;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  text-align: center;
+}
+
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  text-align: center;
+}

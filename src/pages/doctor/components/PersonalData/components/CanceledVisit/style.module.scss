@@ -1,0 +1,147 @@
+.canceled {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3f1ff;
+  padding: 20px;
+  height: 70px;
+}
+
+.back {
+  background-image: url('../../../../../../assets/icons/back-mobile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 8px;
+  height: 17px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  color: #262626;
+}
+
+.close {
+  background-image: url('../../../../../../assets/icons/close-blue.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 17px;
+  height: 17px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  border: 1px solid #8acfe7;
+  border-radius: 52px;
+  padding: 9px 0;
+  padding-left: 20px;
+  padding-right: 14px;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+}
+
+.days {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin-right: 8px;
+}
+
+.restore {
+  width: 20px;
+  height: 20px;
+  background-image: url('../../../../../../assets/icons/cancel.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #dee7f8;
+  border: none;
+  border-radius: 50%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 26px;
+  padding-top: 26px;
+  width: 100%;
+}
+
+.caption {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #262626;
+  margin-bottom: 6px;
+}
+
+.subcaption {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin-bottom: 20px;
+}
+
+.yep {
+  width: 100%;
+  padding: 14px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  margin-bottom: 10px;
+}
+
+.nope {
+  width: 100%;
+  padding: 14px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #262626;
+  background: none;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+}

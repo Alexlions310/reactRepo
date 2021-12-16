@@ -1,0 +1,81 @@
+.container {
+  width: 90vw;
+  height: 90vh;
+  padding: 40px 45px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  & .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    & .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    & .fieldset {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      border: none;
+      padding: 0;
+      margin-right: 20px;
+      height: 100%;
+    }
+    & .label {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 140%;
+      color: #262626;
+      margin-bottom: 20px;
+    }
+    & .textarea {
+      border: 2px solid #dee7f8;
+      box-sizing: border-box;
+      border-radius: 14px;
+      resize: none;
+      height: 100%;
+      margin-bottom: 20px;
+      padding: 20px;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+    }
+    & .error {
+      margin-bottom: 20px;
+      color: #ef6f86;
+    }
+  }
+  .h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #262626;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .closeButton {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 26px;
+    right: 26px;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  .note {
+    background: #6d7f9d;
+    border-radius: 74px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #ffffff;
+    padding: 6px 19px;
+    width: fit-content;
+    margin-bottom: 38px;
+  }
+}

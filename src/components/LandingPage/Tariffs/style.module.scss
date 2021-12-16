@@ -1,0 +1,114 @@
+.tariffs_container{
+    position: relative;
+    box-sizing: border-box;
+    width: 362px;
+    height: 323px;
+    border: 2px solid #DEE7F8;
+    border-radius: 20px;
+    margin-right: 22px;
+    margin-bottom: 23px;
+}
+.tariffs_container:hover{
+  border-color: #519AF0;
+}
+.tariffs_container__heading{
+    display: flex;
+}
+.tariffs_container__MainIcon{
+    margin-left: 30px;
+    margin-top: 29px;
+    margin-right: 14px;
+}
+.tariffs_container__MainIcon:hover{
+    cursor: pointer;
+}
+.tariffs_container__p{
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #262626;
+    padding-top: 28px;
+    padding-right: 4px;
+    width: 260px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.tariffs_container__meeting_time{
+    display: flex;
+}
+.tariffs_container__clock_icon{
+    margin-left: 32.25px;
+    margin-right: 8.25px;
+    margin-top: 8px;
+}
+.tariffs_container__time{
+    margin-top: 22px;
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 145%;
+    color: #262626;
+}
+
+.tariffs_container__main_p{
+    width: 302px;
+    height: 105px;
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2C4358;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.tariffs_container__footer{
+    display: flex;
+    margin-left: 30px;
+}
+.tariffs_container__footer_price{
+    position: absolute;
+    height: 29px;
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #262626;
+    left: 30px;
+    bottom: 26px;
+    margin-bottom: 0px;
+}
+.tariffs_container__footer_query{
+    position: absolute;
+    left: 124px;
+    bottom: 32.3px;
+}
+
+.tariffs_container__nextBtn{
+    position: absolute;
+    right: 20px;
+    bottom: 21px;
+}
+.tariffs_container__nextBtn:hover{
+    cursor: pointer;
+}
+// onlny visible for second card
+.tariffs_container__age_restriction{
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    color: #2C4358;
+    padding: 5px;
+    margin-top: 18px;
+    margin-left: 18px;
+    border: 1px solid #DEE7F8;
+    border-radius: 12px;
+}

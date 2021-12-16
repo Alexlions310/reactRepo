@@ -1,0 +1,104 @@
+.months {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+
+  &:not(:last-child) {
+    padding-bottom: 20px;
+  }
+}
+
+.may {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #4b5b75;
+  margin-bottom: 20px;
+}
+
+.days {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+  display: flex;
+  margin-bottom: 2px;
+  text-align: center;
+  max-width: 113px;
+  width: 100%;
+
+  &:nth-child(7n + 1) {
+    border-radius: 10px 0 0 10px;
+  }
+
+  &:nth-child(7n + 7) {
+    width: fit-content;
+    border-radius: 0 10px 10px 0;
+  }
+
+  &:nth-last-child(-n + 7) {
+    margin-bottom: 0;
+  }
+}
+
+.day_first {
+  background: #dcf6ff;
+}
+
+.day_select {
+  background: #dcf6ff;
+}
+
+.day_last {
+  background: #dcf6ff;
+  position: relative;
+
+  .inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  &::after {
+    content: '';
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+  }
+}
+
+.inner {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 10px 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #262626;
+}
+
+.inner_active {
+  color: #ffffff;
+  background: #7d9dff;
+  border-radius: 12px;
+}
+
+.inner_inactive {
+  color: #8193af;
+}

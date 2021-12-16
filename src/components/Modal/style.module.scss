@@ -1,0 +1,20 @@
+.modal_container {
+  display: flex;
+
+  .content {
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+  }
+
+  .close_container {
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: -36px;
+    margin-top: 26px;
+    height: min-content;
+  }
+}
+.modal_container:focus {
+  outline: none;
+}

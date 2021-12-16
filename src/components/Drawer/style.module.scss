@@ -1,0 +1,14 @@
+.icon {
+    display: flex;
+        background-image: url(../../assets/icons/close-gray.svg);
+        background-position: center;
+        position: fixed;
+        background-color: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        bottom: 370px;
+        z-index: 10000;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+}

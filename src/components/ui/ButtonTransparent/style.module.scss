@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    
+}
+.button {
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;  
+    color: #7D9DFF;
+    background-color: transparent;
+    cursor: pointer;
+    width: max-content;
+    padding: 0;
+}
+.arrow_before {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}

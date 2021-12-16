@@ -1,0 +1,31 @@
+.container {
+  display: none;
+  height: 83px;
+  background-color: #fff;
+  border-top: 1px solid #a8a9af;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 17px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 10;
+}
+
+.chat {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  & p {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 130%;
+    color: #262626;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    display: flex;
+  }
+}

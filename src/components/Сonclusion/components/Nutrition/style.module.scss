@@ -1,0 +1,60 @@
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #262626;
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+}
+.mealtime__button {
+  display: flex;
+  border: 1px solid #f2f2f3;
+  border-radius: 52px;
+  padding: 7px 15px;
+  max-width: min-content;
+
+}
+.mealtime__button_active {
+  background: #dcf6ff;
+  border: 1px solid #dcf6ff;
+}
+.mealtime__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #2c4358;
+  margin: 0;
+  margin-left: 7px;
+}
+.mark__container {
+  display: flex;
+}
+.mark {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin-left: 11px;
+}
+.nutrition__desc ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.nutrition__desc li:before {
+  content: "•";
+  margin-right: 8px;
+  color: #DEE7F8;
+}

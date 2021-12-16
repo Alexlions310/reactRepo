@@ -1,0 +1,47 @@
+.wrap {
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5B75;
+    padding-left: 24px;
+}
+.mark {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5B75;
+    padding-left: 8px;
+}
+.mark_bold {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5B75;
+}
+.dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #3FC311;
+    border-radius: 50%;
+    top: 8px;
+    left: 8px;
+}
+@media (max-width: 829px) {
+    .container {
+        width: 100%;
+        max-width: none;
+        position: static;
+        margin-bottom: 0;
+    }
+    .wrap {
+        display: none;
+    }
+    .mark {
+        margin-top: 0;
+    }
+}

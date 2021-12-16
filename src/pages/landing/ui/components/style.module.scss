@@ -1,0 +1,53 @@
+.headingNum{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 140%;
+    color: #262626;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+.headingTxt{
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #262626;
+    margin-top: 0px;
+}
+
+.BlogsLoader{
+    // font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    text-align: center;
+    color: #262626;
+    box-sizing: border-box;
+    width:288px;
+    height: 45px;
+    padding: 7px 20px;
+    border: 2px solid #7D9DFF;
+    border-radius: 52px;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+.BlogsLoader:hover{
+    cursor: pointer;
+    background-color: #7D9DFF;
+    color: white;
+}
+
+@media screen and(max-width: 830px) {
+    .headingNum{
+        font-size: 34px;
+    }
+    .headingTxt{
+        font-size: 22px;
+    }
+ }

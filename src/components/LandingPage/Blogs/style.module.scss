@@ -1,0 +1,10 @@
+.Blogs_container{
+    display: flex;
+    width: 100%;
+}
+
+@media screen and(max-width: 1250px) {
+    .Blogs_container{
+        flex-direction: column;
+    }
+}

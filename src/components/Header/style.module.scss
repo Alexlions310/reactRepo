@@ -1,0 +1,109 @@
+.header_container {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  & .logo {
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px 20px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    // width: 400px;
+    // height: 50px;
+  }
+  &_content .navlink {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #6d7f9d;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  &_content .navlink_active {
+    color: #7d9dff;
+  }
+  &_content .navlink:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  &_content .navlinkLanding {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4B5B75;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  &_content .navlinkLanding:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  &_profile_link {
+    min-width: 169px;
+    height: 40px;
+    border: 1px solid #7d9dff;
+    box-sizing: border-box;
+    border-radius: 52px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: auto;
+  }
+  &_profile_link:hover {
+    cursor: pointer;
+    background: #8acfe7;
+  }
+  &_search {
+    flex-grow: 2;
+    margin-right: 20px;
+    max-width: 468px;
+  }
+  &_search_button {
+    display: none;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 830px) {
+    & {
+      min-height: 70px;
+      max-height: 70px;
+      background-color: #ffffff;
+    }
+    &_content {
+      display: none;
+    }
+    &_profile_link {
+      display: none;
+    }
+    &_search {
+      display: none;
+    }
+    &_search_button {
+      display: block;
+    }
+  }
+}

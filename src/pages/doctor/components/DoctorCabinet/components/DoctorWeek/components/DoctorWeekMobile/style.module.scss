@@ -1,0 +1,80 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dee7f8;
+  padding-bottom: 10px;
+}
+
+.head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #96afc7;
+  flex: 1;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dee7f8;
+  padding-top: 16px;
+  padding-bottom: 20px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.line_active {
+  border-bottom: none;
+  padding-bottom: 0;
+
+  .wrap {
+    margin-bottom: 20px;
+  }
+
+  .caret {
+    transform: rotate(180deg);
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2c4358;
+  flex: 1;
+}
+
+.count {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #2c4358;
+  flex: 1;
+}
+
+.caret {
+  position: absolute;
+  right: 0;
+}

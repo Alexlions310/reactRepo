@@ -1,0 +1,35 @@
+.workExp{
+    display: flex;
+    & span {
+        display: flex;
+        flex-direction: column;
+    }
+    &:first-child {
+        margin-right: 24px;
+    }
+}
+
+.workExp__icon{
+   background-color: #DCF6FF;  
+   border-radius: 16px;
+   width: 46px;
+   height: 46px;
+   margin-right: 10px;
+}
+.workExp__icon:hover{
+    cursor: pointer;
+}
+.workExp__info{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 19px;
+    color: #4B5B75;
+}
+
+.workExp__infoNum{
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 25px;
+   color: #262626;
+}

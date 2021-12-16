@@ -1,0 +1,18 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.caption {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+}

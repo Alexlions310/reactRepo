@@ -1,0 +1,33 @@
+.tag {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #4B5B75;
+    margin-bottom: 20px;
+}
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #262626;
+    margin: 0;
+    margin-bottom: 1px;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #2C4358;
+    text-align: start;
+    margin: 0;
+}
+.events_empty {
+    display: flex;
+    align-items: flex-start;
+}
+.img {
+    margin-right: 16px;
+}

@@ -1,0 +1,38 @@
+.container {
+    width: 408px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 26, 67, 0.05);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 10px;
+}
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #262626;
+    margin: 0;
+    margin-bottom: 19px;
+}
+.time__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.tip {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;   
+    color: #8193AF;
+}
+@media (max-width: 829px) {
+    .container {
+       width: 100%;
+       padding: 24px;
+    }
+}

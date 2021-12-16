@@ -1,0 +1,35 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 100%;
+  min-width: 335px;
+}
+
+.days {
+  display: flex;
+  align-items: center;
+}
+
+.day {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b5b75;
+  flex: 1;
+  text-align: center;
+  border-bottom: 1px solid #dee7f8;
+  padding-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}

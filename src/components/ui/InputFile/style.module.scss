@@ -1,0 +1,50 @@
+.load__button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #262626;
+    border: 1px solid #7d9dff;
+    box-sizing: border-box;
+    border-radius: 52px;
+    padding: 9px 30px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    cursor: pointer;
+}
+.load__button img {
+    margin-right: 10.5px;
+}
+.load__wrap {
+    position: relative;
+     //z-index: 10;
+}
+.load__wrap input[type=file] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+.load__wrap input[type=file]:focus + label {	
+    outline: none;
+}
+@media (max-width: 829px) {
+    .load__wrap {
+        width: 100%;
+      
+    }
+.load__button {
+    font-size: 13px;
+    color: #7D9DFF;
+    width: 100%;
+    height: 64px;
+    border: none;
+    background: #F6FAFF;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+}

@@ -1,0 +1,20 @@
+.button {
+    width: max-content;
+    padding: 7px 30px;
+    border: 2px solid #7D9DFF;
+    border-radius: 52px;
+    background-color: transparent;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.button img {
+    margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+@media (max-width: 829px) {
+    .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: none;
+    position: absolute;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 1px solid #E3F1FF;
+}
+.arrow {
+    position: absolute;
+    top: 27px;
+    left: 30px;
+}
+.text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 130%;
+    color: #262626;
+}
+}

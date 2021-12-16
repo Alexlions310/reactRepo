@@ -1,0 +1,40 @@
+.logo__container {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  margin-right: 10px;
+}
+
+.logo__wrapper {
+  width: 38px;
+  height: 38px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.logo__span {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  color: #262626;
+  margin-left: 10px;
+  max-width: 98px;
+}
+
+@media screen and (max-width: 830px) {
+  .logo__wrapper {
+    width: 32px;
+    height: 32px;
+  }
+  .logo__span {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 130%;
+    color: #262626;
+    margin-left: 10px;
+    max-width: 189px;
+  }
+}

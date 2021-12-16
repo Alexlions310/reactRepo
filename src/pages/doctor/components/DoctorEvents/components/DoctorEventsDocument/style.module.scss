@@ -1,0 +1,94 @@
+.events {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 26px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #dee7f8;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 26px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #dcf6ff;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #262626;
+  margin-left: 16px;
+}
+
+.body {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 342px;
+  width: 100%;
+  margin-right: 11px;
+}
+
+.appointment {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin-bottom: 12px;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.edit {
+  width: 18px;
+  height: 18px;
+  background-image: url('../../../../../../assets/icons/create.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #7d9dff;
+  margin-left: 6px;
+}

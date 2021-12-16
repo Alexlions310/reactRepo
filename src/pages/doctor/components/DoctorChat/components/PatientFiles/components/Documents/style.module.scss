@@ -1,0 +1,83 @@
+.documents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin-bottom: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  position: relative;
+  display: flex;
+  margin-right: 14px;
+}
+
+.format {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 8px;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2c4358;
+  }
+}

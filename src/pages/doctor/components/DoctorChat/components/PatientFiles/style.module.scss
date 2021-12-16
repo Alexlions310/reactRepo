@@ -1,0 +1,81 @@
+.files {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dee7f8;
+  margin-bottom: 20px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+
+  img {
+    display: block;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7d9dff;
+    margin-left: 10px;
+  }
+}
+
+.caption {
+  margin-left: 109px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #262626;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  border: 1px solid #dee7f8;
+  border-radius: 52px;
+  padding: 7px 0;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tab_active {
+  border: 1px solid #dcf6ff;
+  background: #dcf6ff;
+}
+
+.container {
+  display: flex;
+}

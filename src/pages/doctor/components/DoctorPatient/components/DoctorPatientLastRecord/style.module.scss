@@ -1,0 +1,133 @@
+.record {
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+  background: #ffffff;
+  box-shadow: 0px 12px 50px rgba(0, 26, 67, 0.05);
+  border-radius: 20px;
+  width: 408px;
+}
+
+.record_complete {
+  box-shadow: none;
+  border: 2px solid #dee7f8;
+  background: transparent;
+}
+
+.caption {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #8193af;
+  margin-bottom: 18px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #cdfbeb;
+  border-radius: 14px;
+  padding: 12px 20px;
+  margin-bottom: 16px;
+}
+
+.header_mod {
+  background: #cef3ff;
+}
+
+.header_complete {
+  background: #f0f8fc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #262626;
+}
+
+.type {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4b5b75;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #8193af;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #262626;
+  margin: 0;
+}
+
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link {
+  position: absolute;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  background: #f6faff;
+  border-radius: 50%;
+  border: none;
+  background-image: url('../../../../../../assets/icons/arrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+  .record {
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 26, 67, 0.1);
+    padding: 24px;
+  }
+
+  .caption {
+    margin-bottom: 14px;
+  }
+
+  .header {
+    padding: 8px 16px;
+  }
+
+  .time {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}

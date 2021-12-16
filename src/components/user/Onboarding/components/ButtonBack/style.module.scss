@@ -1,0 +1,21 @@
+.button {
+    background-color: transparent;
+    border: none;    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #6D7F9D;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.arrow {
+    margin-right: 10px;
+}
+@media (max-width: 829px) {
+    .button {
+        display: none;
+    }
+}

@@ -1,0 +1,151 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #dee7f8;
+  border-radius: 12px;
+  padding: 11px 16px;
+  background: #ffffff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  width: 100%;
+  border: none;
+
+  &::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #96afc7;
+  }
+}
+
+.button {
+  width: 22px;
+  height: 22px;
+  background-image: url('../../../../assets/icons/search-form.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  height: 79px;
+  margin-bottom: 18px;
+}
+
+.avatar {
+  position: relative;
+  display: flex;
+}
+
+.image {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  background: #2ad99c;
+  border: 2px solid #ffffff;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.patient {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  border-bottom: 1px solid #dee7f8;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #7d9dff;
+  cursor: pointer;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  color: #96afc7;
+  margin-left: 3px;
+}
+
+.block {
+  position: relative;
+  display: flex;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2c4358;
+  margin: 0;
+}
+
+.count {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 19px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  background: #96afc7;
+  border-radius: 50px;
+  padding: 0 7px;
+}

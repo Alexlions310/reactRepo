@@ -1,0 +1,158 @@
+.record {
+    /*display: flex;
+    flex-direction: column;
+    padding: 26px;
+    background: #ffffff;
+    box-shadow: 0px 12px 50px rgba(0, 26, 67, 0.05);
+    border-radius: 20px;
+    max-width: 394px;
+    width: 100%;
+    margin-bottom: 10px;
+    */
+
+    max-width: 408px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 30px rgba(0, 26, 67, 0.05);
+    border-radius: 20px;
+    padding: 26px;
+    margin-bottom: 10px;
+    height: min-content;
+    margin-top: 10px;
+  }
+  
+  .title__card {
+    margin: 0;
+    margin-bottom: 18px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+color: #262626;
+  }
+  .header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #cdfbeb;
+    border-radius: 14px;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+  }
+  .notification {
+    position: absolute;
+    left: 0;
+    top: -75px;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    background: #6c8bbc;
+    border-radius: 50px;
+  }
+  
+  .across {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 160%;
+    color: #ffffff;
+    margin-left: 6px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #262626;
+  }
+  
+  .online {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4b5b75;
+  }
+  .offline {
+    background: #CEF3FF;
+  }
+  .start {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #ffffff;
+    background: #7d9dff;
+    border: 1px solid #7d9dff;
+    border-radius: 52px;
+    padding: 9px 29px;
+    cursor: pointer;
+  }
+  
+  .start_create {
+    background: transparent;
+    color: #262626;
+    padding: 9px 20px;
+  }
+  
+ 
+  
+
+  
+  
+  
+  
+  .block {
+    display: flex;
+    flex-direction: column;
+  
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+  
+  .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #8193af;
+    margin-bottom: 6px;
+  }
+  
+  .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #262626;
+    margin: 0;
+  }
+  
+  .wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+
+
+
+@media (max-width: 829px) {
+  .record {
+    width: 100%;
+    max-width: 829px;
+    margin-bottom: 20px;
+  }
+  .button {
+    width: 100%;
+ 
+  }
+}

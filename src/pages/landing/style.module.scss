@@ -1,0 +1,72 @@
+.main_container {
+}
+
+.main_container__MedServices {
+  margin-bottom: 140px;
+  margin-right: 15px;
+}
+
+.main_container__heading {
+  // font-family: Open Sans;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: #262626;
+}
+
+.nextBtn {
+  position: absolute;
+  top: 106px;
+  right: 3px;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(0, 26, 67, 0.1);
+  border: none;
+  cursor: pointer;
+  z-index: 9;
+}
+.main_container__tariffsHeading {
+  // font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #262626;
+  margin-bottom: 30px;
+}
+.main_container__flexedTariffs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 117px;
+  justify-content: center;
+}
+.main_container__blogs_heading {
+  // font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #262626;
+  margin-bottom: 30px;
+}
+
+@media screen and(max-width: 830px) {
+  .main_container__heading {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #262626;
+  }
+  .main_container__tariffsHeading {
+    font-size: 22px;
+  }
+  .main_container__blogs_heading {
+    font-size: 22px;
+  }
+}

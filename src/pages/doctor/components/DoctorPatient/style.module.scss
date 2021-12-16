@@ -1,0 +1,216 @@
+.patient {
+  display: flex;
+  gap: 40px;
+}
+
+.patient_mobile {
+  display: none;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &:first-child {
+    max-width: 762px;
+    width: 100%;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 12px 50px rgba(0, 26, 67, 0.05);
+  border-radius: 20px;
+  width: 100%;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+}
+
+.cap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background: #dcf6ff;
+
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #96afc7;
+  }
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+}
+
+.secondname {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #262626;
+}
+
+.firstname {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b5b75;
+}
+
+.connection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.reception {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #7d9dff;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.reception_mobile {
+  display: none;
+}
+
+.connect {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #dcf6ff;
+  border-radius: 52px;
+  padding: 11px 37px;
+  border: none;
+}
+
+.write {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #262626;
+  margin-left: 10px;
+}
+
+.count {
+  position: absolute;
+  top: -11px;
+  right: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  background: #ef6f86;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+@media screen and (max-width: 1240px) {
+  .patient {
+    flex-direction: column;
+  }
+
+  .block {
+    &:first-child {
+      max-width: none;
+    }
+
+    &:last-child {
+      flex-direction: row;
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .patient {
+    display: none;
+    gap: 20px;
+  }
+
+  .patient_mobile {
+    display: flex;
+  }
+
+  .block {
+    &:last-child {
+      flex-direction: column;
+    }
+  }
+
+  .info {
+    padding: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 26, 67, 0.1);
+  }
+
+  .wrapper {
+    border-bottom: 1px solid #dee7f8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .photo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .name {
+    margin-left: 8px;
+  }
+
+  .secondname {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .firstname {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .reception_desktop {
+    display: none;
+  }
+
+  .reception_mobile {
+    display: block;
+  }
+}

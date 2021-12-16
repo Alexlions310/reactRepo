@@ -1,0 +1,21 @@
+.modal__container {
+width: 80vw;
+height: 80vh;
+}
+.map__header {
+    padding: 40px 0px 20px 46px;
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+color: #262626;
+}
+@media (max-width: 829px) {
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #262626;
+    width: 100%;
+}
+}

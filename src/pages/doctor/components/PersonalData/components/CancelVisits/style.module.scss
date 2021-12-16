@@ -1,0 +1,262 @@
+.cancel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3f1ff;
+  padding: 20px;
+  height: 70px;
+}
+
+.back {
+  background-image: url('../../../../../../assets/icons/back-mobile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 8px;
+  height: 17px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  color: #262626;
+}
+
+.close {
+  background-image: url('../../../../../../assets/icons/close-blue.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 17px;
+  height: 17px;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 9px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #8acfe7;
+  border-radius: 52px;
+  padding: 8px 0;
+
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #2c4358;
+  }
+}
+
+.item_active {
+  border: 1px solid #dee7f8;
+  background: #dee7f8;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  border-bottom: 2px solid #dee7f8;
+  padding-bottom: 11px;
+  width: 100%;
+}
+
+.shell {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  padding-left: 20px;
+  padding-right: 17px;
+  width: 100%;
+}
+
+.daytime {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4b5b75;
+  padding-left: 12px;
+  min-width: 113px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 26px;
+  padding-top: 26px;
+}
+
+.caption {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #8193af;
+  align-self: flex-start;
+  margin-bottom: 16px;
+}
+
+.visits {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.visit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dee7f8;
+  border-radius: 52px;
+  padding: 11px 0;
+  width: 101px;
+  cursor: pointer;
+}
+
+.visit_selected {
+  background: #f6faff;
+  border: 1px solid #7d9dff;
+}
+
+.visit_expired {
+  .time {
+    color: #cedae6;
+  }
+}
+
+.icon {
+  background: #2ad99c;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.input {
+  appearance: none;
+  position: absolute;
+
+  &:checked + .checkbox {
+    background-image: url('../../../../../../assets/icons/checkbox-check.svg');
+  }
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  background-image: url('../../../../../../assets/icons/checkbox.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #7d9dff;
+  margin-left: 6px;
+}
+
+.block {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 84px;
+  gap: 30px;
+  padding: 10px 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 26, 67, 0.1);
+}
+
+.designation {
+  display: flex;
+  flex-direction: column;
+}
+
+.denotation {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 160%;
+  color: #262626;
+}
+
+.choosed {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 140%;
+  color: #6d7f9d;
+}
+
+.confirm {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  width: 100%;
+  max-width: 180px;
+  padding: 9px 0;
+}

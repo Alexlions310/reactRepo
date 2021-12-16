@@ -1,0 +1,17 @@
+
+.header {
+        display: none;
+    }
+@media (max-width: 829px) {
+    .main_container {
+        background-color: #FFF;
+    }
+    .header {
+        height: 70px;
+        border-bottom: 1px solid #E3F1FF;
+        padding: 0 20px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+}
+}

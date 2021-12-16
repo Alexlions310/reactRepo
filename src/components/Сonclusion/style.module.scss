@@ -1,0 +1,129 @@
+.consequence {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 12px 50px rgba(0, 26, 67, 0.05);
+  border-radius: 20px;
+  width: 100%;
+  padding: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.conclusion {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #262626;
+}
+
+.date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  color: #6d7f9d;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.edit {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #7d9dff;
+  margin-left: 6px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 9px;
+  margin-bottom: 16px;
+}
+
+.item {
+  text-align: center;
+  padding: 19px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  flex: 1;
+  border: 2px solid #dee7f8;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.item_active {
+  border: 2px solid #7d9dff;
+}
+.marketing__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 40px;
+  background: #F6FAFF;
+border-radius: 20px;
+}
+.text {
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+
+color: #6D7F9D;
+
+}
+.prise_sale {
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+color: #262626;
+margin-right: 10px;
+}
+.prise_container {
+  margin-bottom: 7px;
+}
+.price {
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #96AFC7;
+text-decoration: line-through;
+}
+.discount {
+  font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+color: #FFFFFF;
+background: #FA8080;
+border-radius: 50px;
+padding: 1.5px 8px;
+width: max-content;
+}

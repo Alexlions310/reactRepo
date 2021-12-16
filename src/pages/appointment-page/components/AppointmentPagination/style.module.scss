@@ -1,0 +1,120 @@
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: #262626;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.container {
+    border: 2px solid #DEE7F8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 40px;
+    margin-bottom: 24px;
+}
+.wrapper {
+    display: flex;  
+}
+.step {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+} 
+.step__logo {
+    min-width: 40px;
+    height: 40px;
+    background-color: #DCF6FF;
+    border-radius: 50%;
+    color: #6D7F9D;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+.step__logo_active {
+    background-color: #4B5B75;
+    color: #FFFFFF;
+}
+
+.step__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    color: #6D7F9D;
+    margin: 5px 0;
+    text-align: start; 
+}
+.step__title_active {
+    color: #262626;
+}
+.step__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: #6D7F9D;
+    text-align: start;
+}
+.step__text_active {
+    color: #4B5B75;
+}
+.is__ok {
+    margin-right: 12px;
+    background-image: url(../../../../assets/icons/is-ok.svg);
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.is__ok:hover {
+    background-image: url(../../../../assets/icons/edit.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #DEE7F8;
+    z-index: 1;
+}
+.arrow {
+    display: none;
+}
+@media (max-width: 829px) {
+    .root {
+        padding-left: 20px;
+        background: #FFFFFF;
+    }
+    .root__mobile {
+        display: none;
+    }
+    .title {
+        font-size: 20px;
+        margin-bottom: 0;
+        padding-top: 16px;
+    }
+    .container {
+        flex-direction: column;
+        border: none;
+        padding: 0;   
+    }
+    .step {
+        border-bottom: 1px solid #DEE7F8;
+        border-radius: 0;
+        padding: 20px 0;
+        min-height: 115px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .step:last-of-type {
+        border-bottom: none  
+    }
+    .arrow {
+        display: flex;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+.button {
+        width: 308px;
+        height: 45px;
+        border: none;
+        background-color: #7D9DFF;
+        box-sizing: border-box;
+        border-radius: 52px;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 160%;
+        color: #FFFFFF;
+}
+@media (max-width: 829px) {
+    .button {
+        width: 335px;
+    }
+}

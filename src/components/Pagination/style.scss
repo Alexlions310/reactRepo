@@ -1,0 +1,78 @@
+.MuiPaginationItem-page + .Mui-selected {
+  background-color: #ffffff !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08), 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.MuiPaginationItem-page {
+  color: #1d2023 !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 47px 0;
+
+  &__item-count {
+    color: #969fa8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.pagination-settings-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__text {
+    color: #969fa8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 8px;
+
+  &__button {
+    background: #ffffff;
+    border-radius: 6px;
+    color: #969fa8;
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+.active_count {
+  color: #1d2023;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08), 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.row-count_select {
+  white-space: nowrap;
+}
+
+.row-count_select input[name='pageSize'] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}

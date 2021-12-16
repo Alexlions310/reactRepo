@@ -1,0 +1,97 @@
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: #262626;
+}
+.button__container_mobile {
+    display: none;
+}
+.foryou {
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: wheat;
+}
+.foryou__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;   
+}
+.foryou__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0;
+    color: #262626;
+}
+.foryou__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4B5B75;
+}
+.foryou__button {
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7D9DFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.navigation__button {
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 26, 67, 0.06);
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: -15px;
+    top: 80px;
+    z-index: 10;
+    cursor: pointer;
+}
+.slider__container {
+    width: 100%;
+    max-width: 100%;
+    max-height: min-content;
+    min-height: 0;
+    min-width: 0;
+}
+@media (max-width: 829px) {
+    .title {
+        display: none;
+    }
+    .navigation__button {
+        display: none;
+    }
+    .button__container_mobile {
+        display: flex;
+        border-bottom: 1px solid #DEE7F8;
+        margin-bottom: 20px;
+    }
+    .button {
+        color: #262626;
+opacity: 0.3;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 160%;
+border: none;
+background-color: transparent;
+margin-right: 30px;
+cursor: pointer;
+    }
+    .button_active {
+        opacity: 1;
+        border-bottom: 3px solid #7D9DFF;
+    }
+}

@@ -1,0 +1,39 @@
+.app_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #ffffff 47.28%, #ffffff 47.29%, #f5faff 100%);
+}
+
+.app_wrapper {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.prp-header-logo {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.container_wrapper {
+  height: calc(100% - 52px);
+}
+
+.spinner_container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+@media screen and (max-width: 830px) {
+  .app_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // height: 100vh;
+  }
+}

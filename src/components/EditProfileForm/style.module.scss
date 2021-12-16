@@ -1,0 +1,87 @@
+.form {
+  &:first-of-type {
+    border-bottom: 1px solid #F4F4F4;
+  padding-bottom: 22px;
+  }
+  & fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    & p {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      color: #96afc7;
+    }
+  }
+  & h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #262626;
+    margin: 10px 0 0;
+  }
+  & label {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4b5b75;
+    margin-top: 20px;
+    & > div {
+      display: flex;
+      width: 80%;
+      margin-top: 8px;
+    }
+    & input {
+      width: 100%;
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 12px;
+      border: 2px solid #dee7f8;
+      padding: 0 16px;
+    }
+    & input:disabled {
+      background: #f6faff;
+      border: transparent;
+      & .editButton {
+        display: none;
+      }
+    }
+    & input:focus {
+      outline: none;
+    }
+  }
+}
+
+.editButton {
+  width: 40px;
+  height: 40px;
+  background: url(../../assets/icons/input-edit-pencil.svg) no-repeat;
+  background-size: contain;
+}
+
+.editButton_hidden {
+  display: none;
+}
+
+.submitButton {
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  box-sizing: border-box;
+  border-radius: 52px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  padding: 14px;
+  margin-top: 40px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  &_hidden {
+    display: none;
+  }
+}

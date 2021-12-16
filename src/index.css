@@ -1,0 +1,34 @@
+@import './vendor/normalize.css';
+@import './vendor/fonts/fonts.css';
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  /*overflow-x: hidden;*/
+}
+
+#root {
+  height: 100%;
+}
+
+div {
+  box-sizing: border-box;
+}
+.swiper-pagination-bullet {
+  background: #DEE7F8!important;
+  opacity: 1!important;
+}
+.swiper-pagination-bullet-active {
+  background: #4B5B75!important;
+  width: 10px!important;
+  height: 10px!important;
+}
+.button__slider_disable {
+  display: none;
+}

@@ -1,0 +1,17 @@
+.input {
+  appearance: none;
+  position: absolute;
+
+  &:checked + .checkbox {
+    background-image: url('../../../../../../../assets/icons/checkbox-check.svg');
+  }
+}
+
+.checkbox {
+  width: 22px;
+  height: 22px;
+  background-image: url('../../../../../../../assets/icons/checkbox.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

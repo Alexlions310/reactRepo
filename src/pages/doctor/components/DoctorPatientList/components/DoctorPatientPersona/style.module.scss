@@ -1,0 +1,176 @@
+.visit {
+  display: flex;
+  padding: 20px 0;
+
+  &:not(:last-child) {
+    border-bottom: 2px solid #dee7f8;
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &:nth-child(1) {
+    flex: 3;
+  }
+
+  &:nth-child(2) {
+    flex: 3;
+  }
+
+  &:nth-child(3) {
+    flex: 3;
+  }
+
+  &:nth-child(4) {
+    flex: 3;
+  }
+
+  &:nth-child(5) {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.block_mod {
+  flex-direction: row;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #dcf6ff;
+
+  span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #96afc7;
+  }
+}
+
+.patient {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.secondname {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #7d9dff;
+  cursor: pointer;
+}
+
+.firstname {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4b5b75;
+}
+
+.remind {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  background: #dcf6ff;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.about {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  color: #7d9dff;
+  margin-left: 6px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #262626;
+}
+
+.title_mod {
+  font-weight: 600;
+  margin-bottom: 6px;
+  max-width: 340px;
+  width: 100%;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4b5b75;
+}
+
+.conclusion {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #7d9dff;
+  margin-left: 6px;
+}
+
+.notification {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #fa8080;
+  border-radius: 50px;
+  padding: 3px 10px;
+}
+
+.notification_expired {
+  background: #ae3d51;
+}
+
+.phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #262626;
+  border-bottom: 1px dashed #96afc7;
+}

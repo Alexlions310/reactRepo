@@ -1,0 +1,52 @@
+.components__wrapper {
+  max-width: 1370px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 80px 0;
+  box-sizing: border-box;
+  display: flex;
+  /*overflow: auto;*/
+  flex-direction: column;
+
+  @media (max-width: 1023px) {
+    padding: 0 20px 0;
+  }
+  @media (max-width: 829px) {
+    padding: 0 20px 100px;
+  }
+}
+
+.no_padding {
+  padding: 0 0 25px 0;
+  margin: 0;
+  max-width: none;
+
+  @media (max-width: 1279px) {
+    padding: 0 0 25px 0;
+  }
+
+  @media (max-width: 1023px) {
+    padding: 0 0 16px 0;
+  }
+}
+.appointment
+{
+  max-width: 1370px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 80px 0;
+  box-sizing: border-box;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+
+  @media (max-width: 1279px) {
+    padding: 0 20px 0;
+  }
+
+  @media (max-width: 829px) {
+    padding: 0;
+  }
+}

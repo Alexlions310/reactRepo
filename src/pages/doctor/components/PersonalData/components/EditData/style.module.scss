@@ -1,0 +1,118 @@
+.edit {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.notification {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  padding: 14px 20px;
+  background: #6d7f9d;
+  border-radius: 16px;
+  position: absolute;
+  width: 335px;
+  top: 65px;
+  left: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3f1ff;
+  padding: 20px;
+  height: 70px;
+}
+
+.back {
+  background-image: url('../../../../../../assets/icons/back-mobile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 8px;
+  height: 17px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  color: #262626;
+}
+
+.close {
+  background-image: url('../../../../../../assets/icons/close-blue.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  width: 17px;
+  height: 17px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4b5b75;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.input {
+  background: #ffffff;
+  border: 2px solid #dee7f8;
+  border-radius: 12px;
+  margin-top: 8px;
+  padding: 11px 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  &::placeholder {
+    color: #96afc7;
+  }
+}
+
+.save {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  padding: 14px 0;
+}

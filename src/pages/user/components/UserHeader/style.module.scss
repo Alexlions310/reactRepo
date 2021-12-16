@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 9px;
+}
+
+.buttons__container {
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter_button {
+  cursor: pointer;
+  outline: none;
+  border: transparent;
+  border-radius: 6px;
+  padding: 6px 16px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #1d2023;
+  width: 94px;
+  min-width: 94px;
+  height: 32px;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.basket_btn {
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffffff;
+  align-items: center;
+  border: transparent;
+}
+
+.basket_icon {
+  width: 16px;
+  height: 17px;
+}

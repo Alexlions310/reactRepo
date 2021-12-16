@@ -1,0 +1,30 @@
+.history {
+  display: flex;
+  flex-direction: column;
+}
+
+.caption {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #262626;
+  margin-bottom: 12px;
+}
+
+.slider {
+  display: flex;
+}
+
+.more {
+  border: 2px solid #7d9dff;
+  border-radius: 52px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #262626;
+  background: none;
+  padding: 12px 0;
+}

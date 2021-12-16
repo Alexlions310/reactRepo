@@ -1,0 +1,88 @@
+.record {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #dee7f8;
+  flex: 1;
+}
+
+.record_active {
+  .wrap {
+    background: #4b5b75;
+    border-radius: 50px;
+  }
+
+  .day {
+    color: #ffffff;
+  }
+
+  .icon {
+    background: #ffffff;
+  }
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px 17px;
+}
+
+.day {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #262626;
+}
+
+.icon {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #96afc7;
+}
+
+@media screen and (max-width: 830px) {
+  .record {
+    min-width: 99px;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .record {
+    min-width: 87px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .record {
+    min-width: 77px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .record {
+    min-width: 68px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .record {
+    min-width: 60px;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .record {
+    min-width: 53px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .record {
+    min-width: 47px;
+  }
+}

@@ -1,0 +1,35 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  margin-bottom: 16px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}

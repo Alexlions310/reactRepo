@@ -1,0 +1,10 @@
+.editButton {
+  width: 40px;
+  height: 40px;
+  background: url(../../../../assets/icons/input-edit-pencil.svg) no-repeat;
+  background-size: contain;
+}
+
+.editButton_hidden {
+  display: none;
+}

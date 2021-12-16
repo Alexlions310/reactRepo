@@ -1,0 +1,32 @@
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+}
+
+.user_data_content {
+  margin-left: 17px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - 220px);
+}
+
+.page_container {
+  display: contents;
+  width: 100%;
+  height: 100%;
+}
+
+.page_height {
+  height: 100%;
+}
+
+.spinner_container {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 207px);
+}

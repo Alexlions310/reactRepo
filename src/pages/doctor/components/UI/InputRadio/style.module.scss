@@ -1,0 +1,15 @@
+.input {
+  appearance: none;
+  position: absolute;
+
+  &:checked + .radio {
+    background-image: url('../../../../../assets/icons/radio-check.png');
+  }
+}
+
+.radio {
+  background-image: url('../../../../../assets/icons/radio.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

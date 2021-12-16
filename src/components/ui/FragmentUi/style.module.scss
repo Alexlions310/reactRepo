@@ -1,0 +1,35 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.desc {
+    margin-left: 10px;
+    min-width: 90px;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4B5B75;
+    margin: 0;
+}
+.count {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #262626;
+}
+.img {
+    object-fit: contain;
+}
+@media (max-width: 480px) {
+    .wrap {
+       margin-bottom: 16px;
+    }
+    .wrap:last-of-type {
+        margin-bottom: 0px;
+     }
+}

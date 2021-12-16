@@ -1,0 +1,46 @@
+.today {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 26, 67, 0.1);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.date {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #8193af;
+  margin-bottom: 16px;
+}
+
+.schedule {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.record {
+  display: flex;
+  align-items: center;
+  border: 1px solid #a1b7cb;
+  border-radius: 52px;
+  padding: 11px 16px;
+}
+
+.icon {
+  background: #7cd5f2;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #7d9dff;
+}

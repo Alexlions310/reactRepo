@@ -1,0 +1,101 @@
+.doctorInfoContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 140px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.doctorinfoContainer__leftSide {
+  box-sizing: border-box;
+  width: 100%;
+}
+.doctorInfoContainer__heading1 {
+  font-size: 28px;
+  line-height: 140%;
+  font-weight: 600;
+  color: #262626;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.doctorInfoContainer__img {
+  margin-left: -2px;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.doctorinfoContainer__rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.doctorInfoContainer__heading2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #262626;
+}
+.doctorInfoContainer__p1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5b75;
+}
+.doctorInfoContainer__heading3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+  padding-top: 25px;
+}
+.doctorInfoContainer__p2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #2c4358;
+}
+.doctorInfoContainer__heading4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #262626;
+  padding-top: 10px;
+}
+
+.doctorInfoContainer__p3 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #2c4358;
+}
+
+@media screen and(max-width:1250px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .doctorInfoContainer__img {
+    width: 50%;
+  }
+}
+@media screen and(max-width:830px) {
+  .doctorInfoContainer__heading1 {
+    font-size: 22px;
+  }
+  .doctorInfoContainer__heading2 {
+    font-size: 18px;
+  }
+  .doctorInfoContainer__heading3 {
+    font-size: 16px;
+  }
+}
+@media screen and(max-width:550px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .doctorInfoContainer__img {
+    width: 100%;
+  }
+}

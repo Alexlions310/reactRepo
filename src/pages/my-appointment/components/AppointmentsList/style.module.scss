@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.title {
+    font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+color: #262626;
+margin: 0;
+margin-bottom: 30px;
+}
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 829px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    .title {
+    font-size: 20px;
+    }
+}

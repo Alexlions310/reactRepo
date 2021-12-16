@@ -1,0 +1,18 @@
+.container {
+  padding: 30px 45px;
+  width: 608px;
+
+}
+
+.closeButton {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  cursor: pointer;
+}
+
+@media screen and(max-width: 830px) {
+  .container {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,75 @@
+.container {
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 60%;
+    min-height: 60px;
+}
+.container_active {
+    background-color: #DCF6FF;
+}
+.day {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #C4CDDC;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.day_availeble {
+    color: #262626;
+}
+.day_active {
+   background-color:  #FFF6E7;
+   font-weight: 600;
+   border-radius: 50%;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: #3FC411;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+}
+.dayNoCurrentMonth {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #8193AF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: auto;
+}
+@media (max-width: 829px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 30%;
+        
+    }
+    .dot {
+        position: static;
+        margin-top: 6px;
+    }
+    .day {
+        margin: 0;
+        margin-top: 10px;
+    }
+   
+}

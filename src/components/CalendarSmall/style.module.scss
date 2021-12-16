@@ -1,0 +1,123 @@
+.main__container {
+    width: 375px;
+    height: 346px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 26, 67, 0.1);
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.names__container {
+    border-bottom: 1px solid #DEE7F8;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEE7F8;
+    padding-bottom:  6px;
+    margin: 0 26px;
+}
+.days__container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-left: 14px;
+    padding-top: 15px;
+
+}
+.day__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4B5B75;
+    text-transform: capitalize;
+}
+.day {
+    border: none;
+    border-radius: 50%;
+    padding: 12px 17px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #262626;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+}
+.day_active {
+    background: #7D9DFF;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.day_active:hover {
+    color: #262626;
+}
+.day:hover {
+    background-color: #DCF6FF;
+}
+.date__container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, 80px);
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.date {
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 60px;
+    color: #262626;
+    text-transform: capitalize;
+    padding: 19px 20px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date:hover {
+    background-color: #DCF6FF; 
+}
+.date_active {
+    background: #7D9DFF;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.date_active:hover {
+    color: #262626;
+}
+.button__pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 26px 19px;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4B5B75;
+    text-transform: capitalize;
+}
+.button__next {
+    transform: rotate(180deg);
+}
+.day_unmonth {
+    color: #96AFC7;
+}
+
+@media (max-width: 829px) {
+    .main__container {
+        width: 100vw;
+        position: relative;
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+}

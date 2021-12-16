@@ -1,0 +1,119 @@
+.rectangle {
+  display: flex;
+  align-items: center;
+  background: radial-gradient(62.67% 154.84% at 1.38% 100%, #9eb6ff 0%, #7d9dff 100%),
+    linear-gradient(0deg, #7d9dff, #7d9dff);
+  margin-left: -50px;
+  margin-right: -50px;
+  border-radius: 50px;
+  padding: 31px 48px 51px 87px;
+}
+
+.rectangle__heading {
+  margin-top: 0px;
+  height: 100px;
+  width: 350px;
+}
+
+.leftDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+}
+
+.leftDiv__heading {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+  color: #ffffff;
+  max-width: 350px;
+}
+
+.leftDiv__ul {
+  padding: 0;
+  & li {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #ffffff;
+    list-style-image: url(../../../../assets/icons/blue-dot-li-style.svg);
+  }
+}
+
+.button {
+  background-color: #f79828;
+  color: white;
+  width: 250px;
+  height: 45px;
+  border-radius: 52px;
+  border: 1px solid #7d9dff;
+  margin-top: 32px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #f5be40;
+}
+.rightDiv {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.rightDiv__plashka {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+@media screen and(max-width: 1250px) {
+  .rectangle {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .rightDiv {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .leftDiv {
+    align-items: center;
+    padding: 20px;
+  }
+  .button {
+    margin-bottom: 0;
+  }
+}
+@media screen and(max-width: 1150px) {
+  .rectangle {
+    padding: 20px;
+  }
+}
+@media screen and(max-width: 830px) {
+  .rectangle {
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    overflow: hidden;
+    padding: 0 20px 31px;
+  }
+  .rightDiv {
+    width: 70%;
+  }
+  .leftDiv__heading {
+    font-size: 22px;
+    line-height: 140%;
+  }
+}
+@media screen and(max-width: 600px) {
+  .rightDiv {
+    width: 100%;
+  }
+}

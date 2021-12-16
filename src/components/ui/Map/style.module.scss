@@ -1,0 +1,48 @@
+.map {
+    width: 80vw;
+    height: 69vh;
+    border-radius: 20px;
+} 
+.map > ymaps {
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    overflow: hidden;
+    }
+    .mark_container {
+        background-color: #fff;
+        min-width: 182px;
+        height: 54px;
+        position: relative;
+        box-shadow: 0px 0px 10px rgba(0, 26, 67, 0.1);
+border-radius: 0px 10px 10px 0px;
+display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .mark_img {
+        background-image: url(../../../assets/icons/map.svg);
+        background-repeat: no-repeat;
+        width: 38px;
+        height: 54px;
+        position: absolute;
+        left: -19px;
+        top: 0;
+    }
+    .text {
+        min-width: max-content;
+        font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+color: #2C4358;
+padding-left: 45px;
+    }
+    @media (max-width: 829px) {
+
+        .map {
+            width: 100vw;
+            height: 90vh;
+            border-radius: 0;
+        } 
+    }

@@ -1,0 +1,109 @@
+.container {
+    background: #F6FAFF;
+    border-radius: 20px;
+    padding: 28px 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.button__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #262626;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.button__transparent {
+    color: #96AFC7;
+}
+.img {
+    transform: rotate(90deg);
+    margin-left: 9px;
+}
+.img_active {
+    transform: rotate(-90deg);  
+}
+.optional__input {
+    min-height: 177px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 18px;
+    border: none;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #262626;
+    padding: 20px;
+    margin-bottom: 14px;
+}
+.optional__input:focus {
+    border: 2px solid #9DDBF2;
+    outline: none;
+}
+.tag__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.load__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2C4358;
+    max-width: 380px;
+
+}
+@media (max-width: 829px) { 
+    .container {
+      //background: #DCF6FF;
+    background: #FFFFFF; 
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    }
+    .button__wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        background: #DCF6FF;
+        border-radius: 20px;
+        padding: 14px 24px;
+        position: relative;
+    }
+    .img {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+    .button {
+        padding: 0;
+        font-size: 14px;
+    }
+    .load__text {
+       
+        font-size: 16px;
+    }
+    .optional__input {
+        border: 2px solid #DEE7F8;
+        border-top: none;
+        margin-top: 0px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .button_isActive {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .button__wrap2 {
+        background-color: transparent;
+        padding: 0;
+    }
+}

@@ -1,0 +1,29 @@
+.input_container {
+  display: flex;
+  flex-direction: row;
+  max-width: 294px;
+  width: 100%;
+  background-color: #ffffff;
+  height: 32px;
+  border-radius: 6px;
+  align-items: center;
+}
+
+.input_icon-container {
+  padding: 8px 16px;
+}
+
+.search_input {
+  background-color: #ffffff;
+  width: 80%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search_icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  margin-top: 6px;
+}

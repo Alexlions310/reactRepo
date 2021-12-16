@@ -1,0 +1,174 @@
+.patients {
+  display: flex;
+  flex-direction: column;
+}
+
+.patients_mobile {
+  display: none;
+}
+
+.choose {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  border: 1px solid #8acfe7;
+  box-sizing: border-box;
+  border-radius: 52px;
+  padding: 9px 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #2c4358;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.item_active {
+  border: 1px solid #dee7f8;
+  background: #dee7f8;
+}
+
+.slider {
+  display: flex;
+  align-self: flex-start;
+}
+
+.slide {
+  width: initial !important;
+}
+
+.item {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #4b5b75;
+  padding: 8px 16px;
+  border: 1px solid #dee7f8;
+  border-radius: 52px;
+}
+
+.item_active {
+  border: 1px solid #dcf6ff;
+  background: #dcf6ff;
+  border-radius: 52px;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  max-width: 1146px;
+  width: 100%;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+
+  &:nth-child(1) {
+    flex: 3;
+    cursor: pointer;
+  }
+
+  &:nth-child(2) {
+    flex: 3;
+  }
+
+  &:nth-child(3) {
+    flex: 3;
+  }
+
+  &:nth-child(4) {
+    flex: 3;
+  }
+
+  &:nth-child(5) {
+    flex: 1;
+  }
+}
+
+.head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #96afc7;
+}
+
+.head_mod {
+  margin-right: 4px;
+}
+
+.vectors {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 6px;
+  width: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px 30px;
+  margin: 0;
+  border: 2px solid #dee7f8;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 830px) {
+  .patients {
+    display: none;
+  }
+
+  .patients_mobile {
+    display: flex;
+  }
+
+  .head {
+    margin: 0 6px;
+  }
+
+  .vectors {
+    margin: 0;
+  }
+
+  .content {
+    border: none;
+    padding: 0;
+    gap: 20px;
+  }
+}

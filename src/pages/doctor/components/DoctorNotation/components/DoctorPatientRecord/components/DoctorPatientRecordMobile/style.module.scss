@@ -1,0 +1,161 @@
+.record {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 26, 67, 0.1);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.record_complete {
+  box-shadow: none;
+  border: 2px solid #dee7f8;
+  background: transparent;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #cdfbeb;
+  border-radius: 14px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+.header_mod {
+  background: #cef3ff;
+}
+
+.header_complete {
+  background: #f0f8fc;
+}
+
+.notification {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+  background: #6c8bbc;
+  border-radius: 50px;
+}
+
+.across {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-left: 6px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #262626;
+}
+
+.type {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4b5b75;
+}
+
+.start {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  background: #7d9dff;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  padding: 9px 29px;
+  cursor: pointer;
+}
+
+.start_create {
+  background: transparent;
+  color: #262626;
+  padding: 9px 20px;
+}
+
+.conclusion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border: 1px solid #7d9dff;
+  border-radius: 52px;
+  padding: 12px 0;
+  width: 100%;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #262626;
+  margin-left: 6px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &:last-child {
+    align-items: center;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #8193af;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #262626;
+  margin: 0;
+}
+
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 830px) {
+  .time {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}
